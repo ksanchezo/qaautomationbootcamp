@@ -1,6 +1,4 @@
 export class newBankAccount {
-    url = 'http://localhost:3000/signin'
-
     elements = {
         getBnkAcctMenu: () => cy.get('a[data-test="sidenav-bankaccounts"]'),
         getNewBnkAcctBtn: () => cy.get('a[data-test="bankaccount-new"]'),
