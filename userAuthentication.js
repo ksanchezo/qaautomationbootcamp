@@ -8,8 +8,8 @@ export class userAuthentication {
         getLoginPage: () => cy.get('h1.MuiTypography-h5')
     }
 
-    navigate(url) {
-        cy.visit(url)
+    navigate(page) {
+        cy.visit(page)
     }
 
     signIn(username, password) {
